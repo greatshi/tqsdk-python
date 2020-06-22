@@ -39,7 +39,7 @@ class TestTdBacktest(unittest.TestCase):
         dir_path = os.path.dirname(os.path.realpath(__file__))
         log_path = os.path.join(dir_path, "log_file", "test_backtest.script.lzma")
         times = []
-        for i in range(1):
+        for i in range(2):
             mock = MockServer()
             md_url = "ws://127.0.0.1:5100/"
             td_url = "ws://127.0.0.1:5200/"
